@@ -1,5 +1,7 @@
 import Vapor
 
+
+// route to welcome.html for get request
 let drop = Droplet()
 
 drop.get("") { request in
